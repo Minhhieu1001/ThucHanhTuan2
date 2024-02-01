@@ -1,0 +1,88 @@
+.frame{
+    height: 1100px;
+    width: 100%;
+    border: 2px solid;
+    background-image: url(../img/background.jpg);
+}
+.header{
+    height: 150px;
+    width: 100%;
+
+}
+.right{
+   
+    height: 300px;
+    width: 18%;
+   
+    float: right;
+   
+}
+.center{
+    position: absolute;
+    height:400px ;
+    width: 60%;
+   
+    margin-left: 20%;
+    
+}
+.center p{
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+}
+.nav{
+    height: 910px;
+    width: 20%;
+    border: 2px solid green;
+    float: left;
+    font-style: italic;
+}
+nav{
+    height: 300px;
+    width: 200px;
+    background-color:white;
+    padding: 20px;
+    line-height: 40px;
+    color: rgb(127, 34, 215);
+    border-radius: 10px;
+    text-align: left;
+    margin: auto;
+    border: 3px solid;
+  
+}
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav a:hover {
+    color: red;
+}
+.south{
+    position: relative;
+    height: 500px;
+    width: 79%;
+   
+    top:400px;
+    margin-left: 20%;
+}
+.south ul li{
+   font-style: normal;
+   margin-left: 3%;
+   color: white;
+}
+.south p{
+    font-size: 15px;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+
+.footer{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    border: 2px solid green;
+    top: 410px;
+    text-align: center;
+    color: white;
+}

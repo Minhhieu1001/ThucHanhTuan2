@@ -1,0 +1,91 @@
+.frame{
+    height: 900px;
+    width: 100%;
+    border: 2px solid;
+}
+.header{
+    height: 150px;
+    width: 100%;
+  
+    background-image: url(../img/background.png);
+
+}
+.header img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+   
+}
+
+.text{
+    position: relative;
+    margin-left: 15%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    top: 20px;
+   
+}
+.text h6{
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 0;
+}
+.menu{
+    height: 50px;
+    width: 100%;
+   
+    background-color: rgb(176, 189, 189);
+}
+.menu a{
+    position: relative;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+.left{
+    height:600px ;
+    width: 30%;
+   
+}
+.left img{
+    height: 250px;
+    width: 400px;
+}
+.center {
+    position: absolute;
+    height: 600px;
+    width: 39%; /* Hoặc giá trị phù hợp tùy thuộc vào yêu cầu thiết kế */
+   margin-left: 31%; /* Để căn giữa theo chiều ngang */
+   
+    top: 220px;
+}
+
+.right {
+    position: absolute;
+    top: 220px;
+    height: 600px;
+    width: 29%; /* Hoặc giá trị phù hợp tùy thuộc vào yêu cầu thiết kế */
+    margin-left: 1055px; /* Để đặt phần tử về bên phải */
+   
+}
+.right p{
+    position: relative;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.right i{
+    position: relative;
+    margin-left: 30px;
+    font-size: 15px;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(176, 189, 189);
+}
